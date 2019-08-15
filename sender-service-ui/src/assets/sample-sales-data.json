@@ -1,0 +1,67 @@
+[
+  {
+    "retailerId": 2,
+    "retailerName": "Dubai Festival City mall",
+    "retailerLocation": "East Gate 1st Flr",
+    "brand": "Max Shopping LLC",
+    "category": "Clothings",
+    "shiftDate": "2019-05-06",
+    "shiftSalesValue": 2134.34,
+    "dailySalesSummaryId": 32,
+    "receiptProviderCode": "green",
+    "mallCode": "mall",
+    "retailerLicenseNumber": 32324545
+  },
+  {
+    "retailerId": 2,
+    "retailerName": "Dubai Festival City mall",
+    "retailerLocation": "East Gate 1st Flr",
+    "brand": "Max Shopping LLC",
+    "category": "Clothings",
+    "shiftDate": "2019-05-06",
+    "shiftSalesValue": 2134.34,
+    "dailySalesSummaryId": 32,
+    "receiptProviderCode": "blue",
+    "mallCode": "mall2",
+    "retailerLicenseNumber": 32324545
+  },
+  {
+    "retailerId": 2,
+    "retailerName": "Dubai Festival City mall",
+    "retailerLocation": "East Gate 1st Flr",
+    "brand": "Max Shopping LLC",
+    "category": "Clothings",
+    "shiftDate": "2019-05-06",
+    "shiftSalesValue": 2134.34,
+    "dailySalesSummaryId": 32,
+    "receiptProviderCode": "orange",
+    "mallCode": "mall3",
+    "retailerLicenseNumber": 32324545
+  },
+  {
+    "retailerId": 2,
+    "retailerName": "Dubai Festival City mall",
+    "retailerLocation": "East Gate 1st Flr",
+    "brand": "Max Shopping LLC",
+    "category": "Clothings",
+    "shiftDate": "2019-05-06",
+    "shiftSalesValue": 2134.34,
+    "dailySalesSummaryId": 32,
+    "receiptProviderCode": "red",
+    "mallCode": "mall4",
+    "retailerLicenseNumber": 32324545
+  },
+  {
+    "retailerId": 2,
+    "retailerName": "Dubai Festival City mall",
+    "retailerLocation": "East Gate 1st Flr",
+    "brand": "Max Shopping LLC",
+    "category": "Clothings",
+    "shiftDate": "2019-05-06",
+    "shiftSalesValue": 2134.34,
+    "dailySalesSummaryId": 32,
+    "receiptProviderCode": "saffron",
+    "mallCode": "mall5",
+    "retailerLicenseNumber": 32324545
+  }
+]

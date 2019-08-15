@@ -1,0 +1,43 @@
+<div class="mt-5">
+
+  <h5>Login successful. Welcome to Demo project</h5>
+  <hr>
+  <div class="row col-md-12">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+      <form action="/action_page.php">
+        <div class="form-group">
+          <label for="email">Access Token:</label>
+          <textarea  class="form-control" readonly id="email" [value]="getAccessTokenValue()"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" (click)="pushSalesData()">Click To Proceed!</button>
+        <button type="submit" class="ml-5 btn btn-primary" (click)="getAllSalesEntry()">Get All!</button>
+      </form>
+
+      <table class="mt-5 table table-sm" *ngIf="dailySalesEntryList && dailySalesEntryList.length > 0">
+        <thead>
+        <tr>
+          <th scope="col">Brand</th>
+          <th scope="col">Sales Date</th>
+          <th scope="col">Sales Value</th>
+          <th scope="col">Receipt Provider</th>
+          <th scope="col">Mall Code</th>
+          <th scope="col">Retailer Name</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let item of dailySalesEntryList">
+          <td>{{item?.brand}}</td>
+          <td>{{item?.salesDate}}</td>
+          <td>{{item?.salesValue}}</td>
+          <td>{{item?.receiptProviderCode}}</td>
+          <td>{{item?.mallCode}}</td>
+          <td>{{item?.retailer?.retailerName}}</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+</div>
+
