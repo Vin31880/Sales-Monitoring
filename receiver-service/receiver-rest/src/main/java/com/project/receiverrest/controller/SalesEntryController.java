@@ -44,7 +44,7 @@ public class SalesEntryController {
         this.dailySalesEntryService = dailySalesEntryService;
     }
 
-   // @PreAuthorize("#oauth2.hasScope('write')")
+    @PreAuthorize("#oauth2.hasScope('write')")
     @PostMapping(value = PUSH_SALES_URL)
     public ResponseEntity<?> pushSalesEntry(@RequestBody SalesEntryRequest salesEntryRequest, BindingResult bindingResult) throws SalesEntryAlreadyExistsException {
 
