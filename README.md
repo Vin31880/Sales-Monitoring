@@ -30,3 +30,7 @@ It exposes pushSalesData and getAllSalesData api to our receiver service through
 
 f.	Sales Analysis Service:
 It allows us to analyze the sales data received from receiver-service.
+
+<img width="2582" height="1622" alt="Untitled-2026-02-23-2251" src="https://github.com/user-attachments/assets/cba76c49-3a23-4946-9383-76de24e027fa" />
+
+
