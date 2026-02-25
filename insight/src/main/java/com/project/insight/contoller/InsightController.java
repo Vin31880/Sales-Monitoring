@@ -1,7 +1,8 @@
-package com.project.contoller;
+package com.project.insight.contoller;
 
-import com.project.model.SalesDataRequest;
-import com.project.service.InsightService;
+import com.project.insight.model.SalesDataRequest;
+import com.project.insight.service.InsightAIService;
+import com.project.insight.service.InsightService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -15,10 +16,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class InsightController {
 
     private final InsightService insightService;
+    private final InsightAIService insightAIService;
 
     @PostMapping("/analyse")
     public ResponseEntity<String> analyse(@RequestBody SalesDataRequest request) {
-        String insight = insightService.analyse(request);
+        String insight = insightAIService.analyse(request);
         return ResponseEntity.ok(insight);
     }
 }

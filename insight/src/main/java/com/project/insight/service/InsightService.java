@@ -1,6 +1,6 @@
-package com.project.service;
+package com.project.insight.service;
 
-import com.project.model.SalesDataRequest;
+import com.project.insight.model.SalesDataRequest;
 import org.springframework.stereotype.Service;
 
 @Service

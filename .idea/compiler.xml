@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-server" />
+        <module name="receiver-rest" />
+        <module name="registryservice" />
+        <module name="receiver-domain" />
+        <module name="sales-analysis" />
+        <module name="gateway" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-server" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="receiver-domain" options="-parameters" />
+      <module name="receiver-rest" options="-parameters" />
+      <module name="registryservice" options="-parameters" />
+      <module name="sales-analysis" options="-parameters" />
+    </option>
+  </component>
+</project>

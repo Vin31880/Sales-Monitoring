@@ -1,4 +1,4 @@
-package com.project.model;
+package com.project.insight.model;
 
 import lombok.Data;
 import java.util.List;
