@@ -1,5 +1,6 @@
 package com.project.insight.contoller;
 
+import com.project.insight.model.AnalysisResponse;
 import com.project.insight.model.SalesDataRequest;
 import com.project.insight.service.InsightAIService;
 import com.project.insight.service.InsightService;
@@ -19,8 +20,8 @@ public class InsightController {
     private final InsightAIService insightAIService;
 
     @PostMapping("/analyse")
-    public ResponseEntity<String> analyse(@RequestBody SalesDataRequest request) {
-        String insight = insightAIService.analyse(request);
+    public ResponseEntity<AnalysisResponse> analyse(@RequestBody SalesDataRequest request) {
+        AnalysisResponse insight = insightAIService.analyse(request);
         return ResponseEntity.ok(insight);
     }
 }
